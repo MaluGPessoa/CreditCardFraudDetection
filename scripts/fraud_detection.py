@@ -6,9 +6,9 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score,mean_absolute_error, r2_score
 from sklearn.datasets import load_iris
 
-df_credit = pd.read_csv(r"C:\\Users\\malug\\.vscode\\workspace\\CreditCardFraudDetection\\data\\creditcard.zip")
+df_credit = pd.read_csv(r"C:\\data\\creditcard.zip")
 
-zip_file_path = 'C:\\Users\\malug\\.vscode\\workspace\\CreditCardFraudDetection\\data\\creditcard.zip'
+zip_file_path = 'C:\\data\\creditcard.zip'
 
 csv_file_name = 'creditcard.csv'
 
